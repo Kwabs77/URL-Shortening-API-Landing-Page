@@ -20,14 +20,14 @@ body {
   display: flex;
   flex-direction: row;
   margin-left: 11.5%;
-  margin-right: 8%;
+  margin-right: 6.5%;
   width: auto;
 }
 .Header .ham {
   display: none;
 }
 .Header .to-the-end {
-  margin-left: 45%;
+  margin-left: 37%;
   margin-top: 30px;
   color: #9E9AA8;
   font-size: 15px;
@@ -550,6 +550,7 @@ button{
   }
   .phone ul, .phone li {
     list-style-type: none;
+    padding-left: 0px;
   }
   .phone .phoneLine {
     background-color: #9E9AA8;
@@ -740,7 +741,7 @@ button{
   .more button {
     font-size: 13px;
     width: 128px;
-    padding-bottom: 17px;
+    padding-bottom: 20px;
   }
   .more p {
     margin-right: 30px;
@@ -807,6 +808,9 @@ button{
   .phone button {
     padding: 2px 29px;
     font-size: 5vw;
+  }
+  .phone ul, .phone li {
+    padding-left: 25px;
   }
 }
 @media screen and (max-width: 300px) {

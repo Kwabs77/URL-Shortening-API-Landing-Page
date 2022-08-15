@@ -24,7 +24,7 @@ width: auto;
   display: flex;
   flex-direction: row;
   margin-left: 11.5%;
-  margin-right: 8%;
+  margin-right: 6.5%;
   width: auto;
 
 
@@ -33,7 +33,7 @@ width: auto;
   }
     
   .to-the-end{
-    margin-left: 45%;
+    margin-left: 37%;
     margin-top: 30px;
     color: #9E9AA8;
     font-size: 15px;
@@ -740,6 +740,7 @@ margin-left: 25px;
     font-size: larger;
            ul,li{
              list-style-type: none;
+             padding-left: 0px;
           }
 
           .phoneLine{
@@ -1045,7 +1046,7 @@ margin-left: 25px;
 
                       font-size: 13px;
                       width: 128px;
-                      padding-bottom: 17px;
+                      padding-bottom: 20px;
 
                     }
                     p{
@@ -1193,6 +1194,9 @@ margin-left: 25px;
             padding: 2px 29px;
             font-size: 5vw;
         
+          }
+          ul,li{
+            padding-left: 25px;
           }
         
         
