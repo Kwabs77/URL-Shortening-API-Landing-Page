@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/css/main.c76d823d.css",
+    "main.js": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/js/main.cb266df1.js",
+    "static/media/illustration-working.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/illustration-working.c9b5ef5452363d8be3df709375d50bd0.svg",
+    "static/media/logo.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/logo.834643034343520f3b4d7e43111ed4d8.svg",
+    "static/media/logofooter.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/logofooter.8bd469cfb3990e664597034d506e6e2c.svg",
+    "static/media/icon-fully-customizable.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/icon-fully-customizable.a1532a74fa781f6fde327313bd5ffce3.svg",
+    "static/media/icon-brand-recognition.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/icon-brand-recognition.c349d3b69f7442e5ac3552e4138e72e7.svg",
+    "static/media/bg-boost-desktop.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/bg-boost-desktop.772154c9b0e451733f5e.svg",
+    "static/media/icon-detailed-records.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/icon-detailed-records.265c8aea77b546e08ba3575f6a8a9f70.svg",
+    "static/media/instagram.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/instagram.df5873287e1c06a0fe74440f6ccd8394.svg",
+    "index.html": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/index.html",
+    "static/media/pinterest.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/pinterest.a2d25ab4c70b78c4028f25323009cc58.svg",
+    "static/media/bg-shorten-desktop.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/bg-shorten-desktop.0d9742f433f4b0d8752b.svg",
+    "static/media/twitter.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/twitter.1d5c6d5e6ab1717a500af2df0a87959a.svg",
+    "static/media/facebook.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/facebook.229c75a01827343aef31ae916e2ec18a.svg",
+    "static/media/icon-hamburger.svg": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/media/icon-hamburger.ff759b383d2eba91ee85344a9e81a892.svg",
+    "main.c76d823d.css.map": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/css/main.c76d823d.css.map",
+    "main.cb266df1.js.map": "/https//Kwabs77.github.io/URL-Shortening-API-Landing-Page/static/js/main.cb266df1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c76d823d.css",
+    "static/js/main.cb266df1.js"
+  ]
+}
