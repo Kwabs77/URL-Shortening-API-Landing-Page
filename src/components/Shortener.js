@@ -15,6 +15,7 @@ export default function Shortener() {
     const [text, setText] = useState('');
     const [link,setLink] = useState(getStoredLinks);
     const [buttonText,setButtonText] =useState('Copy');
+    const [color, setcolor] = useState(true);
     
     const [required, isRequired] = useState('');
     const [istrue,setIsTrue] = useState(false);
@@ -23,11 +24,14 @@ export default function Shortener() {
     const handleSubmit =(event)=>{
         event.preventDefault();
                 if(!text){
-                    isRequired('This field is required!')
-                    setIsTrue(false)
+                    isRequired('please add a link')
+                     setIsTrue(false)
+                     setcolor(false)
+
                 }else{
                     setIsTrue(true);
                     isRequired('');
+                    setcolor(true)
                     //mod//
                      
 
@@ -58,8 +62,8 @@ export default function Shortener() {
         <>
             <form className="shortener" onSubmit={handleSubmit}>
              <div className='short_flexing'>
-                <input type = 'text' placeholder="     Shorten a link here"  value={text}  onChange = {(e) => {setText(e.target.value)}}/>
-                <p style={{color:'red', width:'200px'}}>{required}</p>
+                <input  id={color? "input": "notinput"}type = 'text' placeholder="     Shorten a link here..."  value={text}  onChange = {(e) => {setText(e.target.value)}}/>
+                <p style={{color:'#F46363', width:'200px'}}>{required}</p>
                 </div>
                 <button type="submit" onClick = {handleSubmit} >Shorten it!</button>
                
