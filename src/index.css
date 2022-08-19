@@ -321,6 +321,7 @@ button{
   background-color: #FFF;
   top: 60px;
   border-radius: 7px;
+  width: 1000px;
 }
 .copy hr {
   display: none;
