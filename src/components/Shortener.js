@@ -62,7 +62,7 @@ export default function Shortener() {
         <>
             <form className="shortener" onSubmit={handleSubmit}>
              <div className='short_flexing'>
-                <input  id={color? "input": "notinput"}type = 'text' placeholder="     Shorten a link here..."  value={text}  onChange = {(e) => {setText(e.target.value)}}/>
+                <input  id={color? "input": "notinput"}type = 'text' placeholder= "Shorten a link here..."  value={text}  onChange = {(e) => {setText(e.target.value)}}/>
                 <p style={{color:'#F46363', width:'200px'}}>{required}</p>
                 </div>
                 <button type="submit" onClick = {handleSubmit} >Shorten it!</button>

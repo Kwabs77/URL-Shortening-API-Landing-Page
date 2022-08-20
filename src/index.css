@@ -394,7 +394,7 @@ button{
   background-position: center;
   background-color: #3A3054;
   max-width: 1000px;
-  height: 40px;
+  height: 168px;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
@@ -414,8 +414,25 @@ button{
   width: 700px;
   border-radius: 10px;
   font-size: 20px;
-  color: #9E9AA8;
-  height: 40px;
+  color: #9E9AAf;
+  height: 64px;
+  padding-left: 25px;
+  font-weight: 600;
+}
+.shortener input::-moz-placeholder {
+  color: #34313D;
+  line-height: 36px;
+  opacity: 50%;
+}
+.shortener input:-ms-input-placeholder {
+  color: #34313D;
+  line-height: 36px;
+  opacity: 50%;
+}
+.shortener input::placeholder {
+  color: #34313D;
+  line-height: 36px;
+  opacity: 50%;
 }
 .shortener #input {
   border: 2px solid black;
@@ -433,7 +450,8 @@ button{
   border: 2px solid #2BD0D0;
   font-weight: 700;
   cursor: pointer;
-  height: 45px;
+  height: 64px;
+  font-size: 20px;
 }
 .shortener button:hover {
   background-color: #9AE3E3;
@@ -489,7 +507,7 @@ button{
   .shortener input {
     margin: 0px;
     width: 50vw;
-    padding-left: 0px;
+    padding-left: 25px;
   }
   .info {
     margin-right: 0px;
@@ -536,6 +554,7 @@ button{
   }
   .shortener input {
     width: 47vw;
+    padding-left: 20px;
   }
   .info {
     margin-right: 0px;
@@ -647,7 +666,7 @@ button{
   }
   .shortener input {
     width: 70vw;
-    padding-left: 0px;
+    padding-left: 20px;
     padding-right: 0px;
     font-size: 2.8vw;
     height: 50px;
@@ -803,7 +822,7 @@ button{
   }
   .shortener input {
     width: 70vw;
-    padding-left: 0px;
+    padding-left: 20px;
     padding-right: 0px;
     font-size: medium;
     height: 50px;
@@ -902,6 +921,7 @@ button{
   }
   .shortener input {
     font-size: medium;
+    padding-left: 20px;
   }
   .shortener button {
     width: 68vw;
@@ -991,7 +1011,7 @@ button{
   }
   .shortener input {
     width: 125px;
-    padding-left: 0px;
+    padding-left: 20px;
     padding-right: 0px;
     font-size: 10px;
     height: 30px;

@@ -490,7 +490,7 @@ margin-left: 25px;
   background-position:center;
   background-color: #3A3054;
   max-width: 1000px;
-  height: 40px;
+  height: 168px;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
@@ -514,8 +514,16 @@ margin-left: 25px;
       //margin-left: 10%;
       //font-weight: 500;
       font-size: 20px;
-      color: #9E9AA8;
-      height: 40px;
+      color:#9E9AAf;
+      height: 64px;
+      padding-left: 25px;
+      font-weight: 600;
+      
+        &::placeholder{
+          color:#34313D;
+          line-height: 36px;
+          opacity: 50%;
+        }
     }
 
     #input{
@@ -537,7 +545,8 @@ margin-left: 25px;
     border: 2px solid #2BD0D0;
     font-weight: 700;
     cursor: pointer;
-    height: 45px;
+    height: 64px;
+    font-size: 20px;
 
              
     
@@ -628,7 +637,7 @@ margin-left: 25px;
 
                   margin: 0px;
                   width: 50vw;
-                  padding-left: 0px;
+                  padding-left: 25px;
                   
                 }
    }
@@ -714,7 +723,7 @@ margin-left: 25px;
     padding-right:18px ;
                           input{
                             width: 47vw;
-
+                            padding-left: 20px;
                           }
 
   }
@@ -883,7 +892,7 @@ margin-left: 25px;
                
         input{
           width:70vw;
-          padding-left: 0px;
+          padding-left: 20px;
           padding-right: 0px;
           font-size: 2.8vw;
           height: 50px;
@@ -1148,7 +1157,7 @@ margin-left: 25px;
 
                 input{
                 width:70vw;
-                padding-left: 0px;
+                padding-left: 20px;
                 padding-right: 0px;
                 font-size: medium;
                 height: 50px;
@@ -1347,6 +1356,7 @@ margin-left:0px ;
           input{
 
             font-size:medium;
+            padding-left: 20px;
           }
           button{
             width: 68vw;
@@ -1510,7 +1520,7 @@ margin-left:0px ;
 
                         input{
                         width:125px;
-                        padding-left: 0px;
+                        padding-left: 20px;
                         padding-right: 0px;
                         font-size: 10px;
                         height: 30px;
